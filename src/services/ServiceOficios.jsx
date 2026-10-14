@@ -21,7 +21,7 @@ export default class ServiceOficios {
             axios.get(url).then(response => {
                 console.log('leyendo empleados');
                 resolve(response.data);
-            });º
+            });
         });
     }
 }
